@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #ddd url("imagens/body_bg.jpg") repeat-x;
+}
+
+#principal {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#topo {
+    width: 1200px;
+    height: 350px;
+    background: url("imagens/header.jpg") no-repeat;
+    position: relative;
+}
+
+#logitipo {
+    position: absolute;
+    top: 150px;
+    left: 190px;
+}
+
+#imagem {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+
+#conteudo {
+    width: 1000px;
+    height: auto;
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 auto 10px;
+}
+
+#esquerda {
+    width: 200px;
+    background: #ddd;
+    float: left;
+    border: 10px solid rgb(151, 151, 151);
+}
+
+#direita {
+    width: 750px;
+    min-height: 530px;
+    background: #ddd;
+    float: right;
+    border: 10px solid rgb(151, 151, 151);
+}
+
+.imagem-estilo {
+    width: 375px;
+    height: 530px;
+    float: left;
+}
+
+#direita img {
+    width: 375px;
+    height: auto;
+    margin-top: 70px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#rodape {
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+/*HOME*/
+.navegacao ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navegacao ul li {
+    list-style: none;
+}
+
+a.linkmenu:link, a.linkmenu:visited {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+a.linkmenu:hover, a.linkmenu:active {
+    background: linear-gradient(60deg, #3b7208, #7cd616);
+    color: white;
+}
+
+#direita h1 {
+    text-transform: uppercase;
+    color: #51801c;
+}
+
+.elemento-pai {
+    margin-top: 140px;
+    margin-right: 10px;
+}
+
+/*SOBRE NÓS*/
+
+#principal-direita {
+    border-bottom: 10px solid rgb(151, 151, 151);
+    width: auto;
+    height: 100px;
+    text-align: center;
+}
+
+#conteudo-direita {
+    border-bottom: 10px solid rgb(151, 151, 151);
+    width: auto;
+    height: 240px;
+}
+
+#conteudo-direita h2, p {
+    margin: 20px 50px;
+}
+
+#rodape-direita {
+    width: auto;
+}
+
+#rodape-direita h2 {
+    margin: 10px 50px;
+    color: #51801c;
+}
+
+h2 {
+    color: #51801c;
+}
+
+/*SERVIÇOS*/
+.caixas {
+    width: 345px;
+    height: 215px;
+    float: left;
+    margin: 10px;
+    border: 5px solid rgb(151, 151, 151);
+    border-radius: 10px;
+}
+
+.caixas h2 {
+    margin-left: 10px;
+}
+
+.caixas p {
+    margin-left: 10px;
+}
+
+/*PORTIFOLIO*/
+#rolagem {
+    width: 750px;
+    height: auto;
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 10px;
+}
+
+#rolagem img {
+    margin: 0;
+    width: 220px;
+    height: 200px;
+}
+
+.imagem-grande {
+    height: 600px;
+}
+
+.imagem-grande iframe {
+    height: 600px;
+    width: 750px;
+    border: 0;
+    overflow-x: hidden;
+}
+
+/*CONTATO*/
+#contato {
+    float: left;
+    border-right: 10px solid rgb(151, 151, 151);
+}
+
+
+.mapa iframe {
+    width: 365px;
+    height: 530px;
+}
+
+.formulario {
+    margin-top: 15px;
+    width: 375px;
+    float: left;
+}
+
+.legenda {
+    width: 90px;
+    display: block;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#texto {
+    resize: none;
+    width: 250px;
+    height: 100px;
+}
+
+.campo {
+    border-radius: 5px;
+    width: 250px;
+    height: 25px;
+    background-color: #a7cc7e;
+    border: 0.5px solid rgb(136, 136, 136);
+}
+
+.botao {
+    margin-left: 100px;
+    width: 255px;
+    height: 30px;
+}
